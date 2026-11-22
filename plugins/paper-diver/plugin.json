@@ -1,0 +1,30 @@
+{
+  "name": "paper-diver",
+  "version": "0.2.0",
+  "description": "Biblioteca Paper Diver de PDFs com índice de peças e citações por página física.",
+  "author": {
+    "name": "Paper Diver"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Paper Diver",
+        "developerName": "Paper Diver",
+        "category": "Productivity",
+        "logo": "./assets/paper-diver.png",
+        "composerIcon": "./assets/paper-diver.png",
+        "shortDescription": "Pesquise e cite seus PDFs",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Conectar minha conta do Paper Diver.",
+          "Abra a biblioteca do Paper Diver."
+        ]
+      },
+      "requires_local_executor": true
+    }
+  }
+}

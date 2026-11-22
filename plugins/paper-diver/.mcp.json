@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "paper-diver": {
+      "type": "stdio",
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/paper-diver.exe",
+      "args": [
+        "mcp",
+        "--origem",
+        "https://paper-diver-staging.kevinheck941972.workers.dev"
+      ]
+    }
+  }
+}

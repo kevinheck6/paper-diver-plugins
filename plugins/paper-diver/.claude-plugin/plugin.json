@@ -1,0 +1,8 @@
+{
+  "name": "paper-diver",
+  "version": "0.2.0",
+  "description": "Biblioteca Paper Diver de PDFs com índice de peças e citações por página física.",
+  "author": {
+    "name": "Paper Diver"
+  }
+}
