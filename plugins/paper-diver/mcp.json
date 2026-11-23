@@ -8,7 +8,7 @@
         "-NoProfile",
         "-NonInteractive",
         "-Command",
-        "$root = $env:PLUGIN_ROOT; if (!$root) { $base = $env:CODEX_HOME; if (!$base) { $base = Join-Path ([Environment]::GetFolderPath('UserProfile')) '.codex' }; $root = Join-Path $base 'plugins/cache/paper-diver/paper-diver/0.4.0' }; & (Join-Path $root 'bin/paper-diver.exe') mcp --origem $env:PAPER_DIVER_ORIGIN; exit $LASTEXITCODE"
+        "$root = $env:PLUGIN_ROOT; if (!$root) { $base = $env:CODEX_HOME; if (!$base) { $base = Join-Path ([Environment]::GetFolderPath('UserProfile')) '.codex' }; $root = Join-Path $base 'plugins/cache/paper-diver/paper-diver/0.4.1' }; & (Join-Path $root 'bin/paper-diver.exe') mcp --origem $env:PAPER_DIVER_ORIGIN; exit $LASTEXITCODE"
       ],
       "env": {
         "PAPER_DIVER_ORIGIN": "https://paper-diver-staging.kevinheck941972.workers.dev"
