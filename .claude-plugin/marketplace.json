@@ -7,7 +7,7 @@
     {
       "name": "paper-diver",
       "source": "./plugins/paper-diver",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Biblioteca Paper Diver de PDFs com índice de peças e citações por página física."
     }
   ]
