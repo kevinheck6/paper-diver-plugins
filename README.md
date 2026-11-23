@@ -11,4 +11,6 @@ O piloto funciona no Windows x64 e requer uma conta convidada. Consulte os passo
 
 Em uma nova conversa, peça **Conectar minha conta do Paper Diver** e confirme o código no portal. Depois peça **Adicionar um PDF à minha biblioteca**. Quando o documento estiver pronto, peça uma resposta com a página física.
 
-O plugin envia os PDFs escolhidos ao armazenamento do seu escritório. Os modelos de indexação rodam no serviço Paper Diver. Os dois assistentes podem usar a mesma conta protegida pelo perfil Windows. Você pode revogar o dispositivo no portal.
+O plugin envia os PDFs escolhidos ao armazenamento do seu escritório. Os modelos de indexação rodam no serviço Paper Diver. Os dois assistentes podem usar a mesma conta protegida pelo perfil Windows.
+
+Para encerrar as conexões, abra [Minha conta](https://paper-diver-staging.kevinheck941972.workers.dev/conta/) e escolha **Desconectar todos os assistentes do escritório**. Ao confirmar, você encerra o acesso em todos os computadores vinculados ao escritório. Para voltar a consultar a biblioteca pelo assistente, autorize a conexão novamente.
